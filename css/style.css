@@ -1,0 +1,614 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    padding-left: var(--padding-left);
+    padding-right: var(--padding-rigth);
+}
+
+:root {
+    --padding-left: 100px;
+    --padding-rigth: 100px;
+    --orange: rgb(210, 98, 0);
+}
+
+
+/*start first page*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+}
+
+header .logo {
+    font-size: 32px;
+    font-family: sans-serif;
+}
+
+header .menu {}
+
+header .menu ul {
+    display: flex;
+    padding: 30px;
+}
+
+header .menu li {
+    padding-left: 60px;
+    font-size: 18px;
+}
+
+header .menu a {
+    color: white;
+}
+
+
+/*end first page*/
+
+
+/*start main page*/
+
+.main-page {
+    background-image: linear-gradient(rgba(21, 21, 21, 0.527), rgba(26, 26, 26, 0.5)), url(/images/11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.main-page .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    color: white;
+}
+
+.main-page .content {
+    width: 50%;
+    text-align: center;
+}
+
+.main-page .content h2 {
+    font-size: 54px;
+    padding-bottom: 40px;
+}
+
+.main-page .content p {
+    padding-bottom: 55px;
+    font-size: 34px;
+}
+
+.main-page .content a {
+    background: rgb(226, 97, 11);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: white;
+}
+
+
+/*end main page*/
+
+
+/*start second page*/
+
+.second {
+    background-color: #feefe7;
+    height: 84vh;
+}
+
+.second h3 {
+    text-align: center;
+    font-size: 45px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.second .container {
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.second .container .f-side {
+    width: 50%;
+}
+
+.second .container .f-side h1 {
+    color: rgb(255, 119, 0);
+    font-size: 64px;
+}
+
+.second .container .f-side h2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+
+.second .container .f-side p {
+    line-height: 1.8;
+    width: 70%;
+    color: rgb(82, 82, 82);
+}
+
+.second .s-side {
+    width: 35%;
+}
+
+.second .s-side img {
+    width: 100%;
+}
+
+
+/*end second page*/
+
+
+/*start third page*/
+
+.third {
+    height: 84vh;
+}
+
+.third h3 {
+    text-align: center;
+    font-size: 45px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.third .container {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.third .container .f-side {
+    width: 50%;
+}
+
+.third .container .f-side h1 {
+    color: rgb(255, 119, 0);
+    font-size: 64px;
+}
+
+.third .container .f-side h2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+
+.third .container .f-side p {
+    line-height: 1.8;
+    width: 90%;
+    color: rgb(82, 82, 82);
+}
+
+.third .s-side {
+    width: 35%;
+}
+
+.third .s-side img {
+    width: 100%;
+}
+
+
+/*end third page*/
+
+
+/* start fourth page*/
+
+.forth {
+    background-color: #feefe7;
+    height: 66vh;
+}
+
+.forth h3 {
+    text-align: center;
+    font-size: 45px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.forth .container {
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.forth .container .f-side {
+    width: 50%;
+}
+
+.forth .container .f-side h1 {
+    color: rgb(255, 119, 0);
+    font-size: 64px;
+}
+
+.forth .container .f-side h2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+
+.forth .container .f-side p {
+    line-height: 1.8;
+    width: 90%;
+    color: rgb(82, 82, 82);
+}
+
+.forth .s-side {
+    width: 35%;
+}
+
+.forth .s-side img {
+    width: 100%;
+}
+
+
+/*end fourth page */
+
+
+/*start contact page */
+
+.contact {
+    background: orange;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.contact .container h1 {
+    font-size: 38px;
+    padding-bottom: 50px;
+}
+
+.contact .container a {
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: 200px;
+    padding: 15px;
+    font-size: 20px;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+.contact .container a:hover {
+    background-color: #d3d3d3;
+}
+
+
+/*end contact page */
+
+
+/*start sixth page */
+
+.sixth {
+    background: #332d28;
+    padding-top: var(--padding-left);
+    padding-bottom: var(--padding-left);
+}
+
+.sixth h2 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.sixth .container .images {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    gap: 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+.sixth .container .images img {
+    max-width: 98%;
+    height: 360px;
+    transition: .6s;
+    overflow: hidden;
+}
+
+.sixth .container .images img:hover {
+    transform: scale(.8);
+    -webkit-transform: scale(.8);
+    -moz-transform: scale(.8);
+    -ms-transform: scale(.8);
+    -o-transform: scale(.8);
+    background-image: linear-gradient(rgba(21, 21, 21, 0.527), rgba(26, 26, 26, 0.5));
+}
+
+
+/*end sixth page */
+
+
+/*start seven page */
+
+.seven {
+    background-color: #ffeee7;
+    height: 100vh;
+}
+
+.seven h2 {
+    font-size: 35px;
+    text-align: center;
+    padding: 40px;
+}
+
+.seven .container {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 20px;
+    margin: auto;
+}
+
+.seven .container .text {
+    background: white;
+    padding: 43px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.seven .container .text h3 {
+    font-size: 21px;
+}
+
+.seven .container .text p {
+    font-size: 23px;
+    color: rgb(249, 136, 7);
+    font-weight: 600;
+}
+
+
+/*end seven page */
+
+
+/*start eight page */
+
+.eight {
+    height: 70vh;
+}
+
+.eight .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding-top: 50px;
+}
+
+.eight .f-side {
+    width: 50%;
+}
+
+.eight .f-side img {
+    width: 96%;
+}
+
+.eight .s-side {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.eight .s-side h2 {
+    font-size: 30px;
+}
+
+.eight .s-side p {
+    padding-top: 37px;
+    padding-bottom: 30px;
+    line-height: 1.8;
+}
+
+.eight .s-side img {
+    width: 230px;
+}
+
+
+/*end eight page */
+
+
+/*start nine page */
+
+.nine {
+    background-image: linear-gradient(rgba(21, 21, 21, 0.527), rgba(26, 26, 26, 0.5)), url(/images/las.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-bottom: var(--padding-rigth);
+}
+
+.nine .container {
+    text-align: center;
+}
+
+.nine .container h2 {
+    font-size: 40px;
+    padding-top: 60px;
+}
+
+.nine .container p {
+    width: 50%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+.nine .nums {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nine .nums .numbers h2 {
+    color: rgb(181, 77, 2);
+}
+
+.nine .nums .numbers p {
+    font-size: 23px;
+}
+
+
+/*end nine page */
+
+
+/*start ten page */
+
+.ten {
+    padding-top: var(--padding-left);
+    padding-bottom: var(--padding-rigth);
+}
+
+.ten .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ten .container .f-side {
+    width: 60%;
+    margin: auto;
+}
+
+.ten .container .f-side h2 {
+    padding-top: 35px;
+}
+
+.ten .container .f-side .first-paragraph {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: 65%;
+}
+
+.ten .container .f-side form input {
+    width: 400px;
+    padding: 20px;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.ten .f-side a {
+    background-color: #e38537;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.ten .s-side {
+    width: 50%;
+}
+
+.ten .s-side img {
+    width: 100%;
+}
+
+
+/*end nine page */
+
+
+/* start contact us part*/
+
+.contact {
+    background: #332d28;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    text-transform: capitalize;
+}
+
+.contact .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.menu h1 {
+    padding: 20px 0;
+    color: rgb(222, 222, 222);
+    border: 1px solid #454a50;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    margin: 20px 0;
+    font-weight: 100;
+}
+
+.side-1,
+.side-2,
+.side-3 {
+    width: 32%;
+    color: #cfd6e1;
+}
+
+.side-1 h1 {
+    color: #c8823b;
+}
+
+.lucation,
+.email,
+.number {
+    padding: 10px;
+    display: flex;
+    font-size: 17px;
+}
+
+.lucation i,
+.email i,
+.number i {
+    padding-right: 10px;
+    font-size: 18px;
+}
+
+.links ul li {
+    font-size: 17px;
+    padding: 12px 0;
+}
+
+.links ul li a {
+    color: white;
+}
+
+footer {
+    background-color: #13100a;
+    padding: 30px;
+}
+
+.feet {
+    width: 50%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+
+/* end contact us part*/
